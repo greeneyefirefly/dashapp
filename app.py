@@ -47,7 +47,7 @@ app.layout = html.Div([
     html.H3('Trees in NYC'),
     html.P('By Samantha Deokinanan'),
     html.P('''
-           Street tree data is from the TreesCount! 2015 Street Tree Census, conducted by volunteers and staff organized by NYC Parks & Recreation and partner organizations. The graphs below highlights the proportion of healthy trees along the streets of NYC. By selecting a borough and species of tree, the graph on the left will highlight the overall health conditions of the species, while the graph on the right will highlight the overall health conditions of the species by stewardship.
+           Street tree data is from the TreesCount! 2015 Street Tree Census, conducted by volunteers and staff organized by NYC Parks & Recreation and partner organizations. The graphs below highlight the proportion of healthy trees along the streets of NYC. By selecting a borough and species of tree, the graph on the left will highlight the overall health conditions of the species, while the graph on the right will highlight the overall health conditions of the species by stewardship.
            '''),
     html.Label('Select a borough: '),
     dcc.Dropdown(id = 'borough_selection',
